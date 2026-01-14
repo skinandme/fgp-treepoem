@@ -216,7 +216,7 @@ def generate_barcode(
             "-dTextAlphaBits=4",
             "-dGraphicsAlphaBits=1",
             "-sOutputFile=-",
-            "-",
+            "-_",
         ],
         capture_output=True,
         check=True,
