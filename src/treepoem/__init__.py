@@ -165,7 +165,7 @@ def generate_barcode(
             "-c",
             f"<</PageOffset [{page_offset} {page_offset}]>> setpagedevice",
             "-f",
-            "-",
+            "-_",
         ],
         text=True,
         capture_output=True,
